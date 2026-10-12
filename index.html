@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sweet Science</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    
+</head>
+  <body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand text-black" href="index.html">
+      <img src="logo.jpg" width="251" height="90" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Navigation links -->
+        <li class="nav-item">
+          <a class="nav-link text-black" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="about.html">About</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="news.html">News</a> 
+        </li>
+      </ul>
+      <a class="btn btn-dark navbar-btn" href="form.html">Newsletter</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Main content -->
+<div class="welcome" style="background-size: cover; background-position: center; padding: 0px 0;">
+  <div class="container-fluid pt-5">
+    <h1 class="text-center text-white mb-4">Welcome to Sweet Science</h1>
+    <p class="text-center text-white mb-5">Explore the latest news from the world of boxing and mixed martial arts.</p>
+  </div>
+</div>
+
+<!--Recent fights button/table -->
+<div class="d-grid gap-2 me-5 ms-5">
+    <button type="button" class="btn btn-info btn-block" id="recentFightsButton">See Recent / Upcoming Fights</button>
+</div>
+<div class="table-responsive-sm me-5 ms-5">
+    <table id="fightTable" class="table table-dark" style="display: none;">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Date</th>
+          <th>Division</th>
+          <th>Scheduled Rounds</th>
+          <th>Venue</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+<!-- Headline section -->
+<div class="container mt-5" id="headlines">
+  <h1 class="text-center mb-4">Latest Headlines</h1>
+  <div class="row">
+  <img src="ryangarcia.jpg" class="img-thumbnail" alt="Ryan Garcia" position="left" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto;">
+  <h5 class="text-center mb-4"><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover text-white" href="garcia-haney.html">Ryan Garcia And Devin Haney Exchange Rematch DMs</a></h5>
+  </div>
+    </div>
+  </div>
+
+<!-- News section -->
+<h1 class="text-center" mb-0>News</h1>
+  <div class="container my-3 border" id="news1"> 
+    <div class="row align-items-center">
+      <div class="col-md-4 d-flex">
+         <div class="card flex-fill mb-3 mx-auto mt-3">
+          <img class="card-img-top img-fluid" src="whittaker.jpg" alt="Ben Whittaker" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title"><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover text-white" href="whittaker-wallace.html">Ben Whittaker badly hurt in final round but avoids major upset</a></h5>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-4 d-flex" id="news2">
+        <div class="card flex-fill mb-3 mx-auto mt-3">
+          <img class="card-img-top img-fluid" src="chisora.jpg" alt="Derek Chisora" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title"><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover text-white" href="chisora-fight.html">Chisora's u-turn on retirement - fights in December</a></h5>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-4 d-flex" id="news3">
+        <div class="card flex-fill mb-3 mx-auto mt-3">
+          <img class="card-img-top img-fluid" src="gassiev.jpg" alt="Murat Gassiev" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title"><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover text-white" href="gassiev-wba.html">Gassiev unsure if Fury v Joshua will be for his WBA belt</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+  <footer class="bg-dark text-center text-lg-start mt-5">
+    <div class="text-center p-3">
+      &copy; 2026 Sweet Science. 
+    </div>
+  </footer>
+
+<script src="jquery-4.0.0.min.js"></script>
+<script src="script.js"></script>
+<script>
+
+  maintbl();
+
+  async function maintbl() {
+  
+  const fighting = await getData();
+
+  const tbody = document.querySelector('#fightTable tbody');
+    for (const bouts of fighting) {
+      tbody.insertAdjacentHTML('beforeend',
+      `<tr>
+      <td>${bouts.title}</td> 
+       <td>${bouts.date}</td>
+       <td>${bouts.division.name}</td> 
+       <td>${bouts.scheduled_rounds}</td>
+       <td>${bouts.venue}</td>
+       <td>${bouts.location}</td>
+      </tr>`);
+    }
+  }
+  
+  async function getData() {
+    const res = await fetch("fights.json");
+    const data = await res.json();
+
+    return data;
+  }
+
+  document.getElementById("recentFightsButton").addEventListener("click", function() {
+    var table = document.getElementById("fightTable");
+    if (table.style.display === "none" || table.style.display === "") {
+        table.style.display = "table"; // Show the table if it's hidden
+    } else {
+        table.style.display = "none"; // Hide the table if it's visible
+    }
+});
+
+</script>
+</html>

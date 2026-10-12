@@ -1,0 +1,217 @@
+[
+  {
+    "title": "Walsh vs. Craycraft",
+    "date": "2026-10-11 T03:00:00",
+    "location": "Kansas City, Kansas",
+    "venue": "Memorial Hall",
+    "status": "NOT_STARTED",
+    "card_billing": "Main Event",
+    "fighters": {
+      "fighter_1": {
+        "fighter_id": "6715fc1faf69bb50508b7c8e",
+        "name": "Walsh",
+        "full_name": "Nico Ali Walsh",
+        "winner": false
+      },
+      "fighter_2": {
+        "fighter_id": "6828c091162efadfc8bca899",
+        "name": "Craycraft",
+        "full_name": "Treavon Craycraft",
+        "winner": false
+      }
+    },
+    "updated_at": "2026-10-09 T06:06:32.593000",
+    "scheduled_rounds": 8,
+    "id": "6ac6de3d0fb9b60a8303092a",
+    "event": {
+      "title": "Heart of America",
+      "date": "2026-10-11 T00:00:00",
+      "location": "Kansas City, Kansas",
+      "id": "6ac6de3c0fb9b60a83030929",
+      "poster_image_url": "https://assets.boxing-data.com/public/events/poster_images/ca86e3b1-1f81-4dcf-914c-530da8365ff2.png"
+    },
+    "division": {
+      "name": "Middleweight",
+      "weight_lb": 160,
+      "weight_kg": 72.57,
+      "id": "671513530ad13034eb882656"
+    },
+    "titles": []
+  },
+  {
+    "title": "Schofield vs. Bahdi",
+    "date": "2026-10-11T03:00:00",
+    "location": "Chicago, Illinois",
+    "venue": "Wintrust Arena",
+    "status": "NOT_STARTED",
+    "card_billing": "Main Event",
+    "fighters": {
+      "fighter_1": {
+        "fighter_id": "6715fc1faf69bb50508b7c1c",
+        "name": "Schofield",
+        "full_name": "Floyd Schofield",
+        "winner": false
+      },
+      "fighter_2": {
+        "fighter_id": "682869de418f4e010bf893bd",
+        "name": "Bahdi",
+        "full_name": "Lucas Bahdi",
+        "winner": false
+      }
+    },
+    "updated_at": "2026-10-09T06:02:32.700000",
+    "scheduled_rounds": 12,
+    "id": "6a7deb3ff8d3c8223feb8381",
+    "event": {
+      "title": "Schofield vs. Bahdi",
+      "date": "2026-10-10T20:00:00",
+      "location": "Chicago, Illinois",
+      "id": "6a7deb3df8d3c8223feb8380",
+      "poster_image_url": "https://assets.boxing-data.com/public/events/poster_images/91f70abe-7527-4c38-943e-e42902726576.jpg"
+    },
+    "division": {
+      "name": "Lightweight",
+      "weight_lb": 135,
+      "weight_kg": 61.23,
+      "id": "671513530ad13034eb882652"
+    },
+    "titles": [
+      {
+        "name": "WBA World Lightweight",
+        "id": "6a9437e075f6290bb1313c8e"
+      }
+    ]
+  },
+  {
+    "title": "Sandoval vs. Mendoza",
+    "date": "2026-10-11T02:00:00",
+    "location": "Chicago, Illinois",
+    "venue": "Wintrust Arena",
+    "status": "NOT_STARTED",
+    "card_billing": "Main Card",
+    "fighters": {
+      "fighter_1": {
+        "fighter_id": "6849a9d4e2f4b55496e11b54",
+        "name": "Sandoval",
+        "full_name": "Ricardo Sandoval",
+        "winner": false
+      },
+      "fighter_2": {
+        "fighter_id": "6864e862881e2d12f4b4903e",
+        "name": "Mendoza",
+        "full_name": "Sergio Mendoza",
+        "winner": false
+      }
+    },
+    "updated_at": "2026-10-09T06:04:09.760000",
+    "scheduled_rounds": 12,
+    "id": "6ab85d801248ed0de1fba330",
+    "event": {
+      "title": "Schofield vs. Bahdi",
+      "date": "2026-10-10T20:00:00",
+      "location": "Chicago, Illinois",
+      "id": "6a7deb3df8d3c8223feb8380",
+      "poster_image_url": "https://assets.boxing-data.com/public/events/poster_images/91f70abe-7527-4c38-943e-e42902726576.jpg"
+    },
+    "division": {
+      "name": "Flyweight",
+      "weight_lb": 112,
+      "weight_kg": 50.8,
+      "id": "671513530ad13034eb88264c"
+    },
+    "titles": [
+      {
+        "name": "WBC World Flyweight Champion",
+        "id": "67153e83af69bb50508b7943"
+      }
+    ]
+  },
+  {
+    "title": "Abdullaev vs. Agrba",
+    "date": "2026-10-10T19:00:00",
+    "location": "Ekaterinburg, Russia",
+    "venue": "RCC Boxing Academy",
+    "status": "NOT_STARTED",
+    "card_billing": "Main Event",
+    "fighters": {
+      "fighter_1": {
+        "fighter_id": "6715fc1eaf69bb50508b795f",
+        "name": "Abdullaev",
+        "full_name": "Zaur Abdullaev",
+        "winner": false
+      },
+      "fighter_2": {
+        "fighter_id": "68285ff3698ae58c729b3937",
+        "name": "Agrba",
+        "full_name": "Khariton Agrba",
+        "winner": false
+      }
+    },
+    "updated_at": "2026-10-09T06:02:32.789000",
+    "scheduled_rounds": 12,
+    "id": "6a7f3d10c254fd325041f5ed",
+    "event": {
+      "title": "Abdullaev vs. Agrba",
+      "date": "2026-10-10T14:00:00",
+      "location": "Ekaterinburg, Russia",
+      "id": "6a7f3d0ec254fd325041f5ec",
+      "poster_image_url": "https://assets.boxing-data.com/public/events/poster_images/736722ed-6f30-4d15-b680-1248d87f990d.jpg"
+    },
+    "division": {
+      "name": "Super Lightweight",
+      "weight_lb": 140,
+      "weight_kg": 63.5,
+      "id": "671513530ad13034eb882653"
+    },
+    "titles": []
+  },
+  {
+    "title": "Iglesias vs. Zaren",
+    "date": "2026-10-09T03:00:00",
+    "location": "Quebec City, Quebec",
+    "venue": "Capitole de Quebec",
+    "status": "FINISHED",
+    "card_billing": "Main Event",
+    "fighters": {
+      "fighter_1": {
+        "fighter_id": "6715fc1faf69bb50508b7ad7",
+        "name": "Iglesias",
+        "full_name": "Osleys Iglesias",
+        "winner": true
+      },
+      "fighter_2": {
+        "fighter_id": "68289564162efadfc8bc584c",
+        "name": "Zaren",
+        "full_name": "Oliver Zaren",
+        "winner": false
+      }
+    },
+    "updated_at": "2026-10-09T08:03:04.896000",
+    "scheduled_rounds": 12,
+    "results": {
+      "outcome": "TKO",
+      "outcome_long": "Technical Knockout",
+      "round": 7
+    },
+    "id": "6a7fad0dd044defdbc5bdae9",
+    "event": {
+      "title": "Iglesias vs. Zaren",
+      "date": "2026-10-09T00:00:00",
+      "location": "Quebec City, Quebec",
+      "id": "6a7deb3ff8d3c8223feb8382",
+      "poster_image_url": "https://assets.boxing-data.com/public/events/poster_images/97bd1832-5dfc-442e-831b-dbad49fab3e1.jpg"
+    },
+    "division": {
+      "name": "Super Middleweight",
+      "weight_lb": 168,
+      "weight_kg": 76.2,
+      "id": "671513530ad13034eb882657"
+    },
+    "titles": [
+      {
+        "name": "IBF World Super Middleweight Champion",
+        "id": "67153e83af69bb50508b7921"
+      }
+    ]
+  }
+]
