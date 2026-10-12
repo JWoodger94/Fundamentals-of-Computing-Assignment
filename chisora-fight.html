@@ -11,40 +11,43 @@
 
 <body>
 <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand text-black" href="index.html"><img src="logo.jpg" width="251" height="90" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <!-- Navigation links -->
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="about.html">About</a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="news.html">News</a> 
-                </li>
-            </ul>
-                    <a class="btn btn-dark navbar-btn" href="form.html">Newsletter</a>
-        </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand text-black" href="index.html">
+      <img src="logo.jpg" width="251" height="90" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Navigation links -->
+        <li class="nav-item">
+          <a class="nav-link text-black" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="about.html">About</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="news.html">News</a> 
+        </li>
+      </ul>
+      <a class="btn btn-dark navbar-btn" href="form.html">Newsletter</a>
+    </div>
+  </div>
+</nav>
 
+<header>
 <!-- Carousel -->
    <div class="container mt-5">
     <div class="row">
         <div class="col-sm">
     <div id="carouselChisora" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-bs-target="#carouselChisora" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#carouselChisora" data-bs-slide-to="1"></li>
-        <li data-bs-target="#carouselChisora" data-bs-slide-to="2"></li>
-      </ol>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselChisora" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselChisora" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselChisora" data-bs-slide-to="2"></button>
+        </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="chisora.jpg" class="d-block w-100" alt="Derek Chisora">
@@ -66,9 +69,11 @@
       </div>
     </div>
   </div>
+  </header>
 
+<main>
   <!-- Text column -->
-  <div class="container">
+  <article class="container">
   <h1>Derek Chisora's u-turn on retirement - fights in December</h1><br>
   <figure>
   <blockquote class="blockquote">
@@ -86,9 +91,9 @@
     </figcaption>
   </blockquote>
   </figure>
-</div>
+</article>
 
-</body>
+</main>
 
 <!-- Footer -->
   <footer class="bg-dark text-center text-lg-start mt-5">
@@ -96,6 +101,8 @@
       &copy; 2026 Sweet Science. 
     </div>
   </footer>
+
+</body>
 
 <script src="jquery-4.0.0.min.js"></script>
 <script src="script.js"></script>
