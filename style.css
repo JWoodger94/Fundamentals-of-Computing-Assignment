@@ -29,6 +29,10 @@
     margin-left: 20px;
  }
 
+ #newsletter-heading {
+   margin-left: 20px;
+ }
+
  #newsCard {
    flex-direction: row;
    width: 100%;
